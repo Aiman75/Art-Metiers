@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.notfound {
+    width: 100%;
+}
+
+header {
+    color: #fff;
+}
+
+header p {
+    padding-top: 10px;
+}
+
+.image {
+    background-image: url("../img/football_robot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.liste {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 100px 0 0 215px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+.first {
+    background-color: #DAA520 !important;
+    color: #fff !important;
+}
+
+.second {
+    color: #fff !important;
+}
+
+.liste div {
+    padding: 5px;
+    margin-left: 5px;
+    background-color:  #8B008B;
+}
+
+.titre {
+    width: 35%;
+    margin : 10px 0 175px 200px;
+    padding : 10px;
+}
+
+.titre a {
+    color: #fff !important;
+}
+
+.plus {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #B0C4DE ! important;
+}
+
+.plus:hover {
+    background-color: #8B008B;
+}
+
+span {
+    color: #000;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+.haut {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: rgba(8, 8, 8, 0.831);
+}
+
+.haut article {
+    width: 20%;
+}
+
+.haut h4 {
+    color: #DAA520;
+}
+
+.fleche {
+    color: #000;
+}
+
+.map {
+    background-image: url("../img/map_fidesio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.triangle {
+    background-image: url("../img/fidesio_triangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.milieu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 0.7em !important;
+    padding: 0 35px;
+}
+
+.milieu h4 {
+    padding: 50px 0 20px;
+}
+
+.milieu a {
+    color: #000 !important;
+}
+
+.milieu a:hover {
+    color: #DAA520 !important;
+    padding: 0px !important;
+}
+
+.ecole {
+    width: 15%;
+    border: none;
+    border-bottom: 1px solid #8B008B;
+}
+
+.formation, .recherche, .entreprise {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #8B008B;
+}
+
+.milieu article {
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.carnot {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.tech {
+    width: 80%;
+    margin-top: 70px;
+}
+
+.hesam {
+    width: 45%;
+    margin-top: 190px;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.droite {
+    padding-top: 200px;
+    padding-bottom: 170px;
+}
+
+.droite a {
+    color: #000 !important;
+}
+
+.droite i {
+    font-size: 2.5em;
+    color: #000;
+}
+
+.droite h5 {
+    width: 100%;
+    color: #000;
+}
+
+.lieu:hover {
+    color: #DAA520;
+}
+
+.coordonnee {
+    display: flex;
+    justify-content: end;
+    margin-top: 70px;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.adresse {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.campus {
+    color: #DAA520 !important;
+    padding: 10px 0;
+}
+
+.campus span {
+    color: #000;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #000;
+    opacity: 1 ! important;
+}
+
+.footer ul li {
+    padding-top: 10px;
+    float: left;
+    padding-left: 25px;
+}
+
+.footer a {
+    color: #fff !important;
+}
+
+.copyright {
+    color: #808080;
+}
+
+.fidesio {
+    padding-top: 10px;
+}
+
+.fidesio a {
+    font-style: italic;
+    color: #808080 !important;
+}
+
+@media screen and (min-width: 590px) {
+
+    .milieu {
+        font-size: 1em !important;
+    }
+
+    .footer ul li {
+        padding-top: 0px;
+    
+}
+
+@media screen and (min-width: 939px) {
+
+    .droite h5 {
+        width: 100%;
+        color: #fff;
+    }
+
+    .droite i {
+        color: #696969;
+    }
+
+    .droite a {
+        color: #fff !important;
+    }
+
+}
+
+@media screen and (min-width: 994px) {
+    .fidesio {
+        padding-top: 0px;
+    }
+}
+
